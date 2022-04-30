@@ -135,14 +135,18 @@ def user_stats(df, city):
     print('\ncounts of users types:\n', count_user_type)
     
     # TO DO: Display counts of gender
+
+    if city == 'washington':
+            print('\nNo gender and birth year data for washington')
+    else:
        
-    count_gender = df['Gender'].value_counts()
-    print('\ncounts of gender:\n', count_gender)
-    # TO DO: Display earliest, most recent, and most common year of birth
-    earliest_birth_year = df['Birth Year'].min()
-    most_recent_birth_year = df['Birth Year'].max()
-    most_common_birth_year = df['Birth Year'].mode()[0]
-    print('\nearliest, most recent, and most common years of birth are \n{},\n{},\n{}\nrespectively'.format(earliest_birth_year,most_recent_birth_year,most_common_birth_year))
+        count_gender = df['Gender'].value_counts()
+        print('\ncounts of gender:\n', count_gender)
+        # TO DO: Display earliest, most recent, and most common year of birth
+        earliest_birth_year = df['Birth Year'].min()
+        most_recent_birth_year = df['Birth Year'].max()
+        most_common_birth_year = df['Birth Year'].mode()[0]
+        print('\nearliest, most recent, and most common years of birth are \n{},\n{},\n{}\nrespectively'.format(earliest_birth_year,most_recent_birth_year,most_common_birth_year))
 
     
     print("\nThis took %s seconds." % (time.time() - start_time))
