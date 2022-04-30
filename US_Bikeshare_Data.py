@@ -25,7 +25,7 @@ def get_filters():
         
     month = input("Please, enter the name of the month you would like filter with.\n you should enter 'all' if no filter: " ).lower()
     while month not in month_list:
-        print('\n invalid input, please re-enter the month')
+        print('\n invalid input, please enter a valid the month')
         month = input("Please, enter the name of the month you would like filter with.\n you should enter 'all' if no filter: ").lower()
         
     day = input("\nPlease, enter the name of the day you would like filter with.\n you should enter 'all' if no filter: " ).lower()
