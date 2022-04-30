@@ -13,5 +13,6 @@ I also write a script that takes in raw input to create an interactive experienc
 I use [chicago.csv, new_york_city.csv, washington.csv](https://drive.google.com/drive/folders/1Qw1F7XjyKeH_CYVf7_B89Fhm68WqIMTg?usp=sharing)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+1. Source repository  - [udacity](https://github.com/udacity/pdsnd_github.git)
+2. Files Source  - Motivate, a bike share system provider.
 
