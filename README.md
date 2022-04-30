@@ -15,5 +15,5 @@ I use [chicago.csv, new_york_city.csv, washington.csv](https://drive.google.com/
 ### Credits
 1. Source repository  - [udacity](https://github.com/udacity/pdsnd_github.git)
 2. Files Source  - Motivate, a bike share system provider.
-3. Udacity Programming for Data Science
+3. Udacity Programming for Data Science.
 
